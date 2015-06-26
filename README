@@ -1,0 +1,20 @@
+Simple example of deploy with Fabric http://www.fabfile.org/
+
+pip install fabric
+pip install fabtools
+
+fabric # fab --list
+Available commands:
+
+    checkout       Checkout code to the remote servers
+    cleanup        Clean up old releases
+    copy_config    Copy custom config to the remote servers
+    deploy         Deploys your project. This calls  'checkout','copy_config','migration','symlink','restart','cleanup'
+    permissions    Set proper permissions for release
+    production     Defines production environment
+    releases       List a releases made
+    restart        Restarts your application services
+    rollback       Rolls back to a previous version and restarts
+    rollback_code  Rolls back to the previously deployed version
+    setup          Prepares one or more servers for deployment
+    symlink        Updates the symlink to the most recently deployed version
